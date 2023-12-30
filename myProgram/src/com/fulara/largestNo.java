@@ -1,3 +1,5 @@
+package com.fulara;
+
 import java.util.Scanner;
 
 public class largestNo {
