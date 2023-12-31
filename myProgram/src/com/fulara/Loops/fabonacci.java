@@ -1,4 +1,4 @@
-package com.fulara;
+package com.fulara.Loops;
 
 import java.util.Scanner;
 public class fabonacci {
