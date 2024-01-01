@@ -1,4 +1,7 @@
+/*Whatever number the user enters, it will show him the digits coming on the number*/
+
 package com.fulara.Loops;
+
 
 import java.util.Scanner;
 public class fabonacci {
@@ -19,6 +22,6 @@ public class fabonacci {
             a = temp;
 
         }
-        System.out.println(+b);
+        System.out.println(b);
     }
 }

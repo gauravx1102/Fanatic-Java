@@ -1,6 +1,9 @@
 package com.fulara.methods;
 
+import java.util.Scanner;
+
 public class nameAndAge {
+
 
     public static void age_name(String name, int age){
 
@@ -14,4 +17,10 @@ public class nameAndAge {
         age_name("Diya", 12);
         
     }
+
+ 
+
+
 }
+
+
