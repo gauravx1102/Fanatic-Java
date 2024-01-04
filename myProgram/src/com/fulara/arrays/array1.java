@@ -12,7 +12,14 @@ public class array1 {
         intArray[3] =4;
         intArray[4] =45;
 
-        System.out.println(intArray[2]);
+//        for (int i = 0;i<5; i++) {
+//
+//            System.out.println(intArray[i]);
+//        }
+
+        for (int i = 0;i< intArray.length;i++){
+            System.out.println(intArray[i]);
+        }
 
 
 
