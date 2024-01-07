@@ -26,6 +26,7 @@ public class bike {
         b1.manu = 2020;
 
 
+
         b2.name = "Hero";
         b2.model = "Spelndor";
         b2.manu = 2024;
@@ -37,7 +38,9 @@ public class bike {
 
 
         b1.display();
+        System.out.println("-------------------------------------------------------------------");
         b2.display();
+        System.out.println("-------------------------------------------------------------------");
         b3.display();
 
     }

@@ -17,8 +17,12 @@ public class array1 {
 //            System.out.println(intArray[i]);
 //        }
 
-        for (int i = 0;i< intArray.length;i++){
-            System.out.println(intArray[i]);
+//        for (int i = 0;i< intArray.length;i++){
+//            System.out.println(intArray[i]);
+//        }
+
+        for (int i : intArray){
+            System.out.println(i);
         }
 
 
