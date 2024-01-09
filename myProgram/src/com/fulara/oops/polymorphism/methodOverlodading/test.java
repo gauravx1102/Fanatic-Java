@@ -1,11 +1,12 @@
-package com.fulara.oops.polymorphism;
+package com.fulara.oops.polymorphism.methodOverlodading;
 
 public class test {
 
     void show(){
+
         System.out.println("1");
     }
-    void show(int a){
+    void show(int a) {
         System.out.println("2");
     }
 
