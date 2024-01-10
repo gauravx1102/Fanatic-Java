@@ -7,6 +7,7 @@ public class test {
         System.out.println("1");
     }
     void show(int a) {
+
         System.out.println("2");
     }
 
