@@ -19,5 +19,7 @@ class B extends A{
 
         b.showA();
         b.showB();
+        System.out.println("My superclass is "+b.getClass().getSuperclass().getName());
+
     }
 }
