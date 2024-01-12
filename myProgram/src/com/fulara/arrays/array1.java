@@ -4,25 +4,27 @@ public class array1 {
 
     public static void main(String[] args) {
 
-        int[] intArray = new int[5];
+        int[] a = new int[5];
 
-        intArray[0] =12;
-        intArray[1] =23;
-        intArray[2] =34;
-        intArray[3] =4;
-        intArray[4] =45;
+        a[0] =12;
+        a[1] =23;
+        a[2] =34;
+        a[3] =4;
+        a[4] =45;
 
-//        for (int i = 0;i<5; i++) {
-//
-//            System.out.println(intArray[i]);
-//        }
+        // By for loop using numbr
+        for (int i = 0;i<5; i++) {
 
-//        for (int i = 0;i< intArray.length;i++){
-//            System.out.println(intArray[i]);
-//        }
+            System.out.println(a[i]);
+        }
 
-        for (int i : intArray){
-            System.out.println(i);
+        //By for loop using length
+        for (int i = 0;i< a.length;i++){
+            System.out.println(a[i]);
+        }
+
+        for (int i : a){
+            System.out.print(i +" ");
         }
 
 
