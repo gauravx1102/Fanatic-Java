@@ -29,5 +29,7 @@ public class Demo {
             }
             System.out.println();                // Newline after each row
         }
+
+
     }
 }

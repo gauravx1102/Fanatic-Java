@@ -1,4 +1,4 @@
-package com.fulara.arrays;
+package com.fulara.arrays.oneDArrays;
 
 
 
