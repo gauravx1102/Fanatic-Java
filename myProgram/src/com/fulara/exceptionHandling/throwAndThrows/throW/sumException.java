@@ -2,8 +2,8 @@ package com.fulara.exceptionHandling.throwAndThrows.throW;
 
 import java.util.Scanner;
 
-public class sumException extends RuntimeException{
-    sumException(String msg){
+public class sumException extends RuntimeException {
+    sumException(String msg) {
 
         super(msg);
     }
@@ -17,17 +17,15 @@ public class sumException extends RuntimeException{
         int b = in.nextInt();
 
         int result = a + b;
-        System.out.println("The sum is "+result);
+        System.out.println("The sum is " + result);
 
         try {
-            if (result < 20){
+            if (result < 20) {
                 throw new sumException("The sum is lower than expected");
-            }
-            else {
+            } else {
                 System.out.println("The sum is as Expected");
             }
-        }
-        catch (sumException s){
+        } catch (sumException s) {
             s.printStackTrace();
         }
     }
