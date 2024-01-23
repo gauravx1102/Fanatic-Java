@@ -1,4 +1,4 @@
-package com.fulara.oops.constructorOverloading;
+package com.fulara.oops.constructor.constructorOverloading;
 
 public class student {
     String name;

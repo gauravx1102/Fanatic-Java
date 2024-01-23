@@ -1,4 +1,4 @@
-package com.fulara.exceptionHandling;
+package com.fulara.exceptionHandling.methodsToPrintExcep;
 
 public class eh1 {
     public static void main(String[] args) {

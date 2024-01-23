@@ -1,7 +1,7 @@
 
 //parameterized constructor
 
-package com.fulara.oops.constructor.parameterizedCons;
+package com.fulara.oops.constructor;
 
 public class Car {
     String name;

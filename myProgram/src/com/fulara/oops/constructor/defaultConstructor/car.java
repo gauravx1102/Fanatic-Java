@@ -1,4 +1,4 @@
-package com.fulara.oops.defaultConstructor;
+package com.fulara.oops.constructor.defaultConstructor;
 
 public class car {
 
