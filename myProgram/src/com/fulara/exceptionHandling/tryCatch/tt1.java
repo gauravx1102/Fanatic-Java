@@ -1,4 +1,4 @@
-package com.fulara.exceptionHandling.throwAndThrows;
+package com.fulara.exceptionHandling.tryCatch;
 
 public class tt1 {
     public static void main(String[] args) {
